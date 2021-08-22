@@ -150,6 +150,9 @@ footer #footer__social-medias .footer__social-medias_icons {
   max-width: 40px;
   height: auto;
 }
+footer #footer__social-medias a {
+  text-decoration: none;
+}
 footer #footer__email-phone p {
   margin: 0;
 }
