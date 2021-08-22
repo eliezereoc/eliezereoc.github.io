@@ -6,6 +6,7 @@ $azure: rgb(240,255,255)
 body    
     background: rgb(240,248,255) //lightgrey
     margin: 0
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     // overflow-x: hidden
     // overflow-y: hidden
 
@@ -33,7 +34,7 @@ header
     //         color: white
     .topnav 
         overflow: hidden
-        background-color: #333 //$blue-med//
+        background-color: #333 
     .topnav a 
         float: left
         display: block
@@ -43,10 +44,10 @@ header
         text-decoration: none
         font-size: 17px
     .topnav a:hover 
-        background-color: #ddd //$blue-light//
+        background-color: #ddd 
         color: black
     .topnav a.active 
-        background-color: $blue-dark//#04AA6D
+        background-color: $blue-dark//
         color: white
     .topnav .icon 
         display: none
@@ -64,7 +65,7 @@ header
     flex-flow: row nowrap
 
     #about__photo
-        max-width: 200px
+        max-width: 220px
         height: auto
 
     #about__text-cnt
@@ -160,7 +161,15 @@ footer
     #footer__email-phone
         p
             margin: 0
+    
 
+#main__cont-whats
+    position: fixed
+    bottom: 50px
+    right: 10px
+    img
+        width: 80px 
+        height: 80px
 
 @media (max-width: 480px)
     main
@@ -190,14 +199,28 @@ footer
                 justify-content: center
                 img
                     max-width: 15rem
-                // p
-                //     text-align: justify
     
     #footer
         flex-flow: column wrap
+        #footer__email-phone
+            text-align: center
+        #footer__copyrights
+            text-align: center
 
+    #main__cont-whats
+        position: fixed
+        bottom: 30px
+        right: 10px
+        img
+            width: 60px 
+            height: 60px
 
-    
+// @media (max-width: 1366px)
+//     #about
+//         #about__photo
+//             max-width: 250px
+//             height: auto
+
 @media screen and (max-width: 600px) 
     .topnav a:not(:first-child) 
         display: none
@@ -216,4 +239,7 @@ footer
         float: none
         display: block
         text-align: left
-  
+ 
+    
+     
+       

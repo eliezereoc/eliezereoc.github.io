@@ -1,6 +1,7 @@
 body {
   background: aliceblue;
   margin: 0;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 main {
@@ -55,7 +56,7 @@ header .topnav .icon {
   flex-flow: row nowrap;
 }
 #about #about__photo {
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
 }
 #about #about__text-cnt {
@@ -157,6 +158,16 @@ footer #footer__email-phone p {
   margin: 0;
 }
 
+#main__cont-whats {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+#main__cont-whats img {
+  width: 80px;
+  height: 80px;
+}
+
 @media (max-width: 480px) {
   main {
     grid-template-columns: 100%;
@@ -191,6 +202,22 @@ footer #footer__email-phone p {
 
   #footer {
     flex-flow: column wrap;
+  }
+  #footer #footer__email-phone {
+    text-align: center;
+  }
+  #footer #footer__copyrights {
+    text-align: center;
+  }
+
+  #main__cont-whats {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+  }
+  #main__cont-whats img {
+    width: 60px;
+    height: 60px;
   }
 }
 @media screen and (max-width: 600px) {
