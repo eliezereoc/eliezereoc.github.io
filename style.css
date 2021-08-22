@@ -188,9 +188,6 @@ footer #footer__email-phone p {
   #job-exp #job-exp__experience #job-exp__job1 img, #job-exp #job-exp__experience #job-exp__job2 img, #job-exp #job-exp__experience #job-exp__job3 img {
     max-width: 15rem;
   }
-  #job-exp #job-exp__experience #job-exp__job1 p, #job-exp #job-exp__experience #job-exp__job2 p, #job-exp #job-exp__experience #job-exp__job3 p {
-    text-align: justify;
-  }
 
   #footer {
     flex-flow: column wrap;
