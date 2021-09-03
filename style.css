@@ -124,6 +124,14 @@ header .topnav .icon {
   padding: 20px;
 }
 
+li {
+  list-style-type: none;
+}
+
+i {
+  padding-right: 1px;
+}
+
 #education {
   grid-area: education;
   background-color: azure;
