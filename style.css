@@ -124,12 +124,16 @@ header .topnav .icon {
   padding: 20px;
 }
 
+ul {
+  text-align: left;
+}
+
 li {
   list-style-type: none;
 }
 
 i {
-  padding-right: 1px;
+  padding-right: 5px;
 }
 
 #education {
