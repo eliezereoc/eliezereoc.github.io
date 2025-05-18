@@ -4,171 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Eliézer de Oliveira Cardoso</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta
+      name="description"
+      content="Olá! Sou Eliezer Cardoso, desenvolvedor apaixonado por tecnologia. Aqui você encontra meus projetos, experiências e habilidades em software."
+    />
+    <meta name="author" content="Eliezer de Oliveira Cardoso" />
+    <meta name="robots" content="index, follow" />
+    <title>Eliézer de Oliveira</title>
 
-    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Saira+Extra+Condensed:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Estilos adicionais -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body id="topo-pagina">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark nav-lateral fixed-top"
-      id="sideNav"
-    >
-      <a class="navbar-brand js-scroll-trigger" href="#topo-pagina">
-        <span class="d-block d-lg-none">Eliézer de Oliveira</span>
-        <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="assets/img/profile.jpg"
-            alt="..."
-        /></span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
-              >Experiência</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Educação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interesses</a
-            >
-          </li>
-        </ul>
+  <body>
+    <div class="navbar-lateral">
+      <div class="img-usuario">
+        <img src="assets/img/profile.png" alt="Foto do Usuário" />
       </div>
-    </nav>
 
-    <!-- Conteudo da pagina-->
-    <div class="container-fluid p-0">
-      <!-- Sobre mim-->
-      <section class="resume-section" id="about">
-        <div class="resume-section-content">
-          <h1 class="mb-0">
-            Eliézer
-            <span class="text-primary">de Oliveira</span>
-          </h1>
-          <div class="subheading mb-5">
-            Campo Mourão · Paraná · Brasil · (44) 99933-2887 ·
-            <a href="mailto:eliezeroc@gmail.com">eliezeroc@gmail.com</a>
-          </div>
-          <p class="lead mb-5">
-            Graduado em Análise e Desenvolvimento de Sistemas, com especialização em Banco de Dados e formação técnica em Eletrônica. 
-            Atuo no desenvolvimento de aplicações web, mobile e software para dispositivos microcontrolados desde 2009. A partir de 2018, 
-            ampliei minha atuação para o desenvolvimento web, englobando tanto Back-End quanto Front-End.
-            Minha expertise inclui tecnologias como Node.js, APIs REST, SQL, Sequelize, Jest, TDD, Angular, JavaScript, TypeScript, React Native, PHP e Git.
-            Sou apaixonado por compreender, criar e aplicar soluções tecnológicas de forma criativa, ética e significativa. 
-            Busco constantemente resolver problemas reais com autonomia, criticidade e responsabilidade, contribuindo para a inovação digital.
-          </p>
-          <div class="social-icons">
-            <a
-              class="social-icon"
-              href="https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a
-              class="social-icon"
-              href="http://github.com/eliezereoc"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              class="social-icon"
-              href="https://www.instagram.com/eliezer_oc/"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              class="social-icon"
-              href="https://www.facebook.com/eliezereoc"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#habilidade">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#interesses">Interesses</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="conteudo">
+      <div class="contato">
+        <h1 class="nome mb-0">
+          Eliézer
+          <span class="sobrenome">de Oliveira</span>
+        </h1>
+        <div class="dados-contato mb-5">
+          Campo Mourão · Paraná · Brasil · (44) 99933-2887 ·
+          <a href="mailto:eliezeroc@gmail.com">eliezeroc@gmail.com</a>
         </div>
-      </section>
+
+        <section class="sobre mb-5">
+          <p>
+            Desenvolvedor Full Stack com mais de 15 anos de experiência em
+            desenvolvimento de software. Graduado em Análise e Desenvolvimento
+            de Sistemas e especialista em Banco de Dados, tenho atuado nos
+            últimos anos na criação de soluções web e mobile voltadas à gestão
+            de pessoas, com foco na integração com plataformas da Senior
+            Sistemas.
+          </p>
+          <p>
+            Tenho boa familiaridade com tecnologias como Node.js, REST APIs,
+            SQL, Angular, React Native e outras ferramentas modernas. Acredito
+            na tecnologia como meio de transformação e busco sempre entregar
+            soluções funcionais, escaláveis e que façam a diferença.
+          </p>
+        </section>
+
+        <div class="social-icons">
+          <a
+            class="social-icon"
+            href="https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="http://github.com/eliezereoc"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="https://www.instagram.com/eliezer_oc/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="https://www.facebook.com/eliezereoc"
+            target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </div>
+      </div>
+
       <hr class="m-0" />
 
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Experiências</h2>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Software Developer</h3>
-              <div class="subheading mb-3">
-                Soluções de gestão |
-                <a href="https://www.senior.com.br/" target="_blank" rel="noopener noreferrer">Senior Sistemas</a>
-              </div>
-              <div>                 
-                <ul style="list-style: none;">
-                  <li style="position: relative; padding-left: 20px;">
-                    <span style="position: absolute; left: 0;">&#10148;</span>  Gestão de Pessoas - HCM
-                  </li>
-                  <li style="position: relative; padding-left: 20px;">
-                    <span style="position: absolute; left: 0;">&#10148;</span> SGI - SGU - CBDS - LSP - SQL - IMP/EXP
-                  </li>
-                  <li style="position: relative; padding-left: 20px;">
-                    <span style="position: absolute; left: 0;">&#10148;</span> X Platform BPM - CONNECT
-                  </li>
-                </ul>                          
-              </div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Abril 2024 - Atual</span>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Analista de Desenvolvimento de Sistemas</h3>
-              <div class="subheading mb-3">
-                Soluções em aplicações web |
-                <a href="https://www.mactus.com.br/" target="_blank" rel="noopener noreferrer">Mactus Soluções em T.I.</a>
-              </div>
-              <p>
-                Desenvolvimento de aplicações web Back-End e Front-End. <br />
-                Implantação, manutenção, prototipagem, testes, versionamento e
-                confecção de documentação.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Julho 2023 - Abril 2024</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
+      <section class="experiencias" id="experiencias">
+        <div class="resumo-experiencias">
+          <h2>Experiências</h2>
+          <div class="experiencia-item mb-5">
+            <div class="descricao">
               <h3 class="mb-0">Desenvolvedor Sênior</h3>
-              <div class="subheading mb-3">
-                Soluções em aplicações web, hardware e softare |
+              <div class="sub-descricao mb-3">
+                Soluções em aplicações web, hardware e software |
                 <a
                   href="https://healthsafe.com.br/"
                   target="_blank"
@@ -179,399 +124,40 @@
               </div>
               <p>
                 Desenvolvimento de aplicações web Back-End e Front-End para
-                integração com hardware. <br />
+                integração com hardware.
+              </p>
+              <p>
                 Projetista de software e hardware, solução no desenvolvimento
-                para automação de equipamentos médicos. <br />
+                para automação de equipamentos médicos.
+              </p>
+              <p>
                 Treinamentos para implantação e manutenção, prototipagem, testes
                 e confecção de documentação.
               </p>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Janeiro 2021 - Julho 2023</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Desenvolvedor Pleno</h3>
-              <div class="subheading mb-3">
-                Soluções em aplicações web, Analista de Suporte |
-                <a
-                  href="https://www.prismainformatica.com.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Prisma Software de Gestão</a
-                >
-              </div>
-              <p>
-                Analista de suporte de sistemas no apoio a clientes aos
-                softwares da SENIOR. <br />
-                Manutenção em customizações desenvolvidas em linguagem SENIOR,
-                instalações, atualizações do sistema. <br />
-                Desenvolvimento de API em NodeJs para integração com WhatsApp,
-                Front-End Angular para formulários e Versionamento.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Novembro 2019 - Dezembro 2020</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Projetista de Hardware e Software</h3>
-              <div class="subheading mb-3">
-                Soluções no desenvolvimento de hardware e software | Aplicações
-                web (Junior) |
-                <a
-                  href="https://www.fortron.com.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Fortron</a
-                >
-              </div>
-              <p>
-                Projetista de software e hardware, solução no desenvolvimento
-                para automação de equipamentos agricolas. <br />
-                Treinamentos para instalação e manutenção, prototipagem, testes
-                e confecção de documentação e gigas. <br />
-                Desenvolvimento de aplicação DeskTop para gerenciamento de
-                documentos e aplicação web para banco de talentos.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Julho 2018 - Outubro 2019</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Técnico em Manutenção Eletrônica</h3>
-              <div class="subheading mb-3">
-                Manutenção em equipamentos eletrônicos |
-                <a
-                  href="http://www.coamo.com.br/site/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Coamo</a
-                >
-              </div>
-              <p>
-                Manutenção em equipamentos como termometrias, analisadores de
-                umidade e impureza, sistema de segurança, monitoramento,
-                controle de carga e fibra ótica.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Abril 2018 - Julho 2018</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Projetista de Hardware e Software</h3>
-              <div class="subheading mb-3">
-                Soluções no desenvolvimento de hardware e software |
-                <a
-                  href="https://evolutec.ind.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Evolutec</a
-                >
-              </div>
-              <p>
-                Projetista de software e hardware, solução no desenvolvimento
-                para automação de equipamentos em geral. <br />
-                Treinamentos para instalação e manutenção, prototipagem, testes
-                e confecção de documentação e gigas.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Junho 2009 - Março 2018</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Auxiliar de Recursos Humanos</h3>
-              <div class="subheading mb-3">
-                CEI-Centro Educacional Integrado
-              </div>
-              <p>Cálculo da folha, rescisões e admissões.</p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Outubro 2008 - Junho 2009</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Auxiliar de Recursos Humanos</h3>
-              <div class="subheading mb-3">Delta Tecnologia da Informação</div>
-              <p>
-                Cálculo da folha, rescisões, admissões, cálculo de guias e
-                declarações.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Março 2008 - Outubro 2008</span>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Auxiliar de Recursos Humanos</h3>
-              <div class="subheading mb-3">Brath Assessoria Empresarial</div>
-              <p>
-                Cálculo da folha, rescisões, admissões, cálculo de guias e
-                declarações.
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Abril 2004 - Novembro 2007</span>
+            <div class="periodo">
+              <span>Janeiro 2021 - Atual</span>
             </div>
           </div>
         </div>
       </section>
-      <hr class="m-0" />
-
-      <!-- Educação-->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Educação</h2>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                IGTI - Instituto de Gestão em Tecnologia da Informação
-              </h3>
-              <div class="subheading mb-3">Bootcamp</div>
-              <div>Desenvolvedor NODE.JS</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Outubro 2021 - Dezembro 2021</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                IGTI - Instituto de Gestão em Tecnologia da Informação
-              </h3>
-              <div class="subheading mb-3">Bootcamp</div>
-              <div>Desenvolvedor Front-End</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Julho 2021 - Outubro 2021</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Cod3r</h3>
-              <div class="subheading mb-3">Curso de Capacitação</div>
-              <div>Angular 9 - Essencial</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">13 Horas - Julho 2021</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">UniCesumar</h3>
-              <div class="subheading mb-3">Graduação Superior</div>
-              <div>
-                Superior em Tecnologia e Análise e Desenvolvimento de Sistemas
-              </div>
-              <!-- <p>GPA: 3.23</p> -->
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Fevereiro 2012 - Novembro 2014</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                Senai - Centro de Educação Profissional do Paraná
-              </h3>
-              <div class="subheading mb-3">Técnico</div>
-              <div>Técnico em Eletrônica</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Fevereiro 2010 - Dezembro 2011</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                Senai - Centro de Educação Profissional do Paraná
-              </h3>
-              <div class="subheading mb-3">Curso de Capacitação</div>
-              <div>Programação de Microcontroladores PIC</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Setembro 2010 - Dezembro 2010</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Fundação Educere</h3>
-              <div class="subheading mb-3">Curso de Capacitação</div>
-              <div>Compatibilidade Eletromagnética</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">12 Horas - Agosto 2010</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Fundação Educere</h3>
-              <div class="subheading mb-3">Curso de Capacitação</div>
-              <div>Gerenciamento de Prazos e Projetos</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">6 Horas - Junho 2010</span>
-            </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Colégio Estadual Vicente Leporace</h3>
-              <div class="subheading mb-3">Ensino Fundamental e Médio</div>
-              <div>Ensino Médio</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary"> Fevereiro 2000 - Dezembro 2002</span>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Colégio Estadual Vicente Leporace</h3>
-              <div class="subheading mb-3">Ensino Fundamental e Médio</div>
-              <div>Ensino Fundamental</div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary"> Fevereiro 1993 - Dezembro 1999</span>
-            </div>
-          </div>
-        </div>
+      <!-- 
+      <section id="formacao">
+        <h2>Formação</h2>
+        <p>Detalhes sobre sua formação acadêmica...</p>
       </section>
-      <hr class="m-0" />
+  
+      <section id="interesses">
+        <h2>Interesses</h2>
+        <p>Seus interesses e hobbies...</p>
+      </section> -->
+    </main>
 
-      <!-- Habilidades-->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Habilidades</h2>
-          <div class="subheading mb-3">
-            Linguagens de programação & Ferramentas
-          </div>
-          <div class="subheading mb-0">Steck</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-            <li class="list-inline-item"><i class="fab fa-react"></i></li>
-            <li class="list-inline-item"><i class="fab fa-php"></i></li>
-            <!-- <li class="list-inline-item"><i class="fab fa-angular"></i></li> -->
-            <!-- <li class="list-inline-item"><i class="fab fa-vuejs"></i></li> -->
-            <li class="list-inline-item"><i class="fab fa-node"></i></li>
-            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-            <li class="list-inline-item"><i class="fab fa-git"></i></li>
-          </ul>
-          <div class="subheading mb-0">Outras</div>
+    <!-- <footer class="bg-light text-center py-3">
+      <small>&copy; 2025 Eliezer de Oliveira Cardoso</small>
+    </footer> -->
 
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              API RESTful, CORS, Express, Swagger UI, OAuth 2.0, Sequelize
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Jest, TDD, Noções de UI e UX, Bootstrap, Styled-components
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Electron, MySql, PostgreSQL, C, Docker, TypeScript
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              MPLab IDE/IPE, Altium Designer, CodeWarrior, Proteus, E2 Studio,
-              GUIX
-            </li>
-          </ul>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- Interesses-->
-      <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Interesses</h2>
-          <p>
-            Além de atuar como desenvolvedor web back-end e front-end, 
-            também me dedico ao desenvolvimento de hardware e software para circuitos eletrônicos, 
-            sejam microcontrolados ou não. Busco constantemente aprimorar meus conhecimentos, 
-            praticando, me capacitando e acompanhando novas tendências e tecnologias.
-          </p>
-          <p class="mb-0">
-            Fora do ambiente de trabalho, valorizo meu papel como pai e esposo, 
-            pratico atividades físicas e me dedico ao meu hobby favorito.
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div id="main__cont-whats">
-          <a
-            href="https://api.whatsapp.com/send?phone=5544999332887&text=Olá,%20visualizei seu currículo!"
-            target="_blank"
-            title="Envie uma mensagem por WhatsApp"
-          >
-            <img src="assets/img/whats.png" alt="Logo do WhatsApp" />
-          </a>
-        </div>
-      </section>
-    </div>
-    <script src="assets/fonts/fontawesome-v6.1.0-all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/scripts.js"></script>
+    <!-- Bootstrap Bundle JS (com Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
