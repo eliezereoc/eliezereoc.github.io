@@ -1,0 +1,92 @@
+[
+  {
+    "cargo": "Analista de Desenvolvimento de Sistemas",
+    "resumo": "Soluções em aplicações web",
+    "empresa": "Mactus Soluções em T.I.",
+    "link": "https://www.mactus.com.br/",
+    "descricao": [
+      "Desenvolvimento de aplicações web Back-End e Front-End.",
+      "Implantação, manutenção, prototipagem, testes, versionamento e confecção de documentação."      
+    ],
+    "periodo": "Julho 2023 - Abril 2024"
+  },
+  {
+    "cargo": "Desenvolvedor Sênior",
+    "resumo": "Soluções em aplicações web, hardware e software",
+    "empresa": "HealthSafe",
+    "link": "https://healthsafe.com.br/",
+    "descricao": [
+      "Desenvolvimento de aplicações web Back-End e Front-End para integração com hardware.",
+      "Projetista de software e hardware, solução no desenvolvimento para automação de equipamentos médicos.",
+      "Treinamentos para implantação e manutenção, prototipagem, testes e confecção de documentação."
+    ],
+    "periodo": "Janeiro 2021 - Julho 2023"
+  },
+  {
+    "cargo": "Desenvolvedor Pleno",
+    "resumo": "Soluções em aplicações web, Analista de Suporte",
+    "empresa": "Prisma Software de Gestão",
+    "link": "https://www.prismainformatica.com.br/",
+    "descricao": [
+      "Analista de suporte de sistemas no apoio a clientes aos softwares da SENIOR.",
+      "Manutenção em customizações desenvolvidas em linguagem SENIOR, instalações, atualizações do sistema.",
+      "Desenvolvimento de API em NodeJs para integração com WhatsApp, Front-End Angular para formulários e Versionamento."
+    ],
+    "periodo": "Novembro 2019 - Dezembro 2020"
+  },
+  {
+    "cargo": "Projetista de Hardware e Software",
+    "resumo": "Soluções no desenvolvimento de hardware e software | Aplicações web (Junior)",
+    "empresa": "Fortron",
+    "link": "https://fortron.com.br/",
+    "descricao": [
+      "Projetista de software e hardware, solução no desenvolvimento para automação de equipamentos agricolas.",
+      "Treinamentos para instalação e manutenção, prototipagem, testes e confecção de documentação e gigas.",
+      "Desenvolvimento de aplicação DeskTop para gerenciamento de documentos e aplicação web para banco de talentos."
+    ],
+    "periodo": "Julho 2018 - Outubro 2019"
+  },
+  {
+    "cargo": "Projetista de Hardware e Software",
+    "resumo": "Soluções no desenvolvimento de hardware e software",
+    "empresa": "Evolutec",
+    "link": "https://evolutec.ind.br/",
+    "descricao": [
+      "Projetista de software e hardware, solução no desenvolvimento para automação de equipamentos em geral.",
+      "Treinamentos para instalação e manutenção, prototipagem, testes e confecção de documentação e gigas."
+    ],
+    "periodo": "Junho 2009 - Março 2018"
+  },
+  {
+    "cargo": "Auxiliar de Recursos Humanos",
+    "resumo": "Auxiliar de Departamento Pessoal",
+    "empresa": "CEI-Centro Educacional Integrado",
+    "link": "https://www.grupointegrado.br/",
+    "descricao": [
+      "Cálculo da folha, rescisões e admissões."
+    ],
+    "periodo": "Outubro 2008 - Junho 2009"
+  },
+  {
+    "cargo": "Auxiliar de Recursos Humanos",
+    "resumo": "Auxiliar de Departamento Pessoal",
+    "empresa": "Escritório de Contabilidade Delta",
+    "link": "",
+    "descricao": [
+      "Cálculo da folha, rescisões, admissões, cálculo de guias e declarações."
+    ],
+    "periodo": "Março 2008 - Outubro 2008"
+  },
+  {
+    "cargo": "Auxiliar de Recursos Humanos",
+    "resumo": "Auxiliar de Departamento Pessoal",
+    "empresa": "Brath Assessoria Empresarial",
+    "link": "",
+    "descricao": [
+      "Cálculo da folha, rescisões, admissões, cálculo de guias e declarações."
+    ],
+    "periodo": "Abril 2004 - Novembro 2007"
+  }
+
+   
+]
