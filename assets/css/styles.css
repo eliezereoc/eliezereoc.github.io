@@ -217,13 +217,15 @@ h6 {
 }
 
 .conteudo .experiencias,
-.conteudo .formacao {
+.conteudo .formacao,
+.conteudo .habilidade {
   width: 100%;
   margin-top: 3rem;
 }
 
 .experiencias h2,
-.formacao h2 {
+.formacao h2,
+.habilidade h2 {
   width: 100%;
   font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
@@ -234,7 +236,8 @@ h6 {
 }
 
 .experiencia-item, 
-.formacao-item {
+.formacao-item,
+.habilidade-item {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -243,7 +246,8 @@ h6 {
 
 @media (min-width: 768px) {
   .experiencia-item, 
-  .formacao-item {
+  .formacao-item,
+  .habilidade-item {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -251,14 +255,16 @@ h6 {
 }
 
 .experiencia-item .descricao,
-.formacao-item .descricao {
+.formacao-item .descricao,
+.habilidade-item .descricao {
   flex: 1;
 }
 
 .experiencia-item .descricao h3,
 .experiencia-item .descricao .sub-descricao,
 .formacao-item .descricao h3,
-.formacao-item .descricao .sub-descricao {
+.formacao-item .descricao .sub-descricao,
+.habilidade-item .descricao .sub-descricao {
   font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -270,7 +276,8 @@ h6 {
 }
 
 .experiencia-item .descricao .sub-descricao,
-.formacao-item .descricao .sub-descricao {
+.formacao-item .descricao .sub-descricao,
+.habilidade-item .descricao .sub-descricao {
   font-size: 1.5rem;
   color: var(--cor-link);
 }
@@ -311,3 +318,24 @@ h6 {
   text-align: right;
 }
 
+.habilidade-item .descricao .sub-descricao-stack,
+.habilidade-item .descricao .sub-descricao-outros {
+  margin-top: 1.5rem;
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--cor-link);
+}
+
+
+.habilidade-item .descricao .dev-icons {
+  font-size: 3rem;
+  color: var(--cor-link);
+}
+
+.habilidade-item .descricao .dev-icons i:hover {
+  color: var(--cor-link-secundario); 
+  transform: scale(1.2);  
+  transition: all 0.3s ease;  
+} 
