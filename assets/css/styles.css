@@ -1,14 +1,14 @@
 :root {
   --cor-fundoPrincipal: #f0f4f8;
-  --cor-navbar: #CFD8DC;
+  --cor-navbar: #cfd8dc;
   --cor-textoPrincipal: #333c4d;
-  --cor-link: #546E7A;
-  --cor-link-hover: #64B5F6 ;
-  --cor-destaque: #90A4AE;
-  --cor-iconesSocial: #37474F;
-  --cor-iconesSocial-hover: #607D8B;
-  --cor-descricao: #546E7A;
-  --cor-link-secundario: #1565C0;
+  --cor-link: #546e7a;
+  --cor-link-hover: #64b5f6;
+  --cor-destaque: #90a4ae;
+  --cor-iconesSocial: #37474f;
+  --cor-iconesSocial-hover: #607d8b;
+  --cor-descricao: #546e7a;
+  --cor-link-secundario: #1565c0;
 }
 
 html {
@@ -20,15 +20,20 @@ html {
 body {
   margin: 0;
   display: flex;
-  flex-direction: row; 
-  height: 100vh;        
-  font-family: 'Inter', sans-serif;
+  flex-direction: row;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
   background-color: var(--cor-fundoPrincipal);
-  color : var(--cor-textoPrincipal);
+  color: var(--cor-textoPrincipal);
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-lateral {
@@ -39,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px; 
+  gap: 25px;
   overflow-y: auto;
 }
 
@@ -47,6 +52,14 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  object-fit: cover;
+   object-position: center;
+
+  /* Borda sutil com cor de destaque */
+  border: 1px solid var(--cor-destaque);
+
+  /* Sombra leve com cor de ícone social */
+  box-shadow: 0 5px 10px rgba(55, 71, 79, 0.3);
 }
 
 .navbar-lateral .nav-links ul {
@@ -56,16 +69,16 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .navbar-lateral .nav-links a {
- color: var(--cor-link);
+  color: var(--cor-link);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.5s ease;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-lateral .nav-links a:hover,
@@ -86,22 +99,22 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .conteudo .contato .nome {
-  font-family: 'Saira Extra Condensed', sans-serif;
-  text-transform: uppercase;   
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-transform: uppercase;
   font-size: 5rem;
   font-weight: 700;
 }
 
 .conteudo .contato .sobrenome {
-  font-family: 'Saira Extra Condensed', sans-serif;
-  text-transform: uppercase;   
+  font-family: "Saira Extra Condensed", sans-serif;
+  text-transform: uppercase;
   color: var(--cor-link);
   font-size: 5rem;
   font-weight: 700;
 }
 
 .conteudo .contato .dados-contato {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.5rem;
@@ -120,7 +133,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .conteudo .contato .sobre {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
   line-height: 1.1;
   margin-bottom: 3rem;
@@ -134,12 +147,12 @@ h1, h2, h3, h4, h5, h6{
 .social-icons {
   margin-top: 1.5rem;
   display: flex;
-  gap: 1.2rem; 
-  justify-content: flex-start; 
+  gap: 1.2rem;
+  justify-content: flex-start;
 }
 
 .social-icon {
-  color: var(--cor-iconesSocial); 
+  color: var(--cor-iconesSocial);
   font-size: 2.2rem;
   transition: color 0.3s ease;
 }
@@ -150,11 +163,12 @@ h1, h2, h3, h4, h5, h6{
 
 .conteudo .experiencias {
   width: 100%;
+  margin-top: 3rem;
 }
 
 .experiencias h2 {
   width: 100%;
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 3.3rem;
   font-weight: 700;
@@ -183,7 +197,7 @@ h1, h2, h3, h4, h5, h6{
 
 .experiencia-item .descricao h3,
 .experiencia-item .descricao .sub-descricao {
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -197,16 +211,16 @@ h1, h2, h3, h4, h5, h6{
   color: var(--cor-link);
 }
 
-.experiencia-item .descricao .descricao-texto{
+.experiencia-item .descricao .descricao-texto {
   padding-top: 1rem;
 }
 
 .experiencia-item .descricao .descricao-texto p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.1rem;
   text-align: justify;
   color: var(--cor-descricao);
-  line-height: 0.6; 
+  line-height: 0.6;
   /* padding-top: 1.1rem; */
 }
 
@@ -222,13 +236,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .experiencia-item .periodo {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   min-width: 150px;
   font-weight: 500;
   color: var(--cor-link);
   text-align: right;
 }
-
-
- 
- 
