@@ -1,4 +1,41 @@
 window.addEventListener("DOMContentLoaded", (event) => {
+  //suavisa rolagem para links internos
+  document.querySelectorAll('a.nav-link[href^="#"]').forEach((link) => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  });
+
+  //controlar o menu lateral com o botão toggler que criamos
+  const menuToggle = document.getElementById("menuToggle");
+  const navLinks = sideNav ? sideNav.querySelectorAll(".nav-link") : [];
+
+  if (menuToggle && sideNav) {
+    // Abre/fecha menu no clique do botão
+    menuToggle.addEventListener("click", () => {
+      sideNav.classList.toggle("active");
+    });
+
+    // Fecha menu ao clicar em link (no mobile)
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 768) {
+          sideNav.classList.remove("active");
+        }
+      });
+    });
+  }
+});
+
+
+
+
+
+/*window.addEventListener("DOMContentLoaded", (event) => {
   // Activate Bootstrap scrollspy on the main nav element
   const sideNav = document.body.querySelector("#sideNav");
   if (sideNav) {
@@ -8,16 +45,23 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   }
 
-  // Collapse responsive navbar when toggler is visible
-  const navbarToggler = document.body.querySelector(".navbar-toggler");
-  const responsiveNavItems = [].slice.call(
-    document.querySelectorAll("#navbarResponsive .nav-link")
-  );
-  responsiveNavItems.map(function (responsiveNavItem) {
-    responsiveNavItem.addEventListener("click", () => {
-      if (window.getComputedStyle(navbarToggler).display !== "none") {
-        navbarToggler.click();
-      }
+//controlar o menu lateral com o botão toggler que criamos
+  const menuToggle = document.getElementById("menuToggle");
+  const navLinks = sideNav ? sideNav.querySelectorAll(".nav-link") : [];
+
+  if (menuToggle && sideNav) {
+    // Abre/fecha menu no clique do botão
+    menuToggle.addEventListener("click", () => {
+      sideNav.classList.toggle("active");
     });
-  });
-});
+
+    // Fecha menu ao clicar em link (no mobile)
+    navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 768) {
+          sideNav.classList.remove("active");
+        }
+      });
+    });
+  }
+});*/

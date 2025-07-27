@@ -86,6 +86,61 @@ h6 {
   color: var(--cor-link-hover);
 }
 
+@media (max-width: 768px) {
+  .navbar-lateral {
+    position: fixed;
+    top: 0;
+    left: -300px; /* esconde à esquerda */
+    width: 275px;
+    height: 100vh;
+    background-color: var(--cor-navbar);
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  .navbar-lateral.active {
+    left: 0; /* mostra o menu */
+  }
+
+  .menu-toggler {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background: var(--cor-navbar);
+    border: none;
+    color: var(--cor-link);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1100;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-toggler {
+    display: none;
+  }
+}
+
+.menu-toggler {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(6px);
+  border: none;
+  color: var(--cor-link);
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1100;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-toggler:hover {
+  opacity: 1;
+}
+
 .conteudo {
   flex: 1;
   padding: 40px;
