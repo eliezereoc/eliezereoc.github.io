@@ -7,6 +7,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
       if (target) {
         target.scrollIntoView({ behavior: "smooth" });
       }
+
+      // Muda o título com base no data-title ou no texto do link
+      const novoTitulo = this.dataset.title || this.textContent.trim();
+      mudarTitulo(novoTitulo);
     });
   });
 
@@ -28,6 +32,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
         }
       });
     });
+  }
+
+  function mudarTitulo(titulo) {
+    document.title = titulo;
   }
 });
 
