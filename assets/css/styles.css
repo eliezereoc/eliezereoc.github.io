@@ -143,24 +143,28 @@ h6 {
 
 .conteudo {
   flex: 1;
-  padding: 40px;
+  /* padding: 40px; */
   background-color: var(--cor-fundo);
   overflow-y: auto;
 }
 
-.conteudo .contato {
+.conteudo-container {
+  padding: 40px;  
+}
+
+.conteudo-container .contato {
   width: 100%;
   /* text-transform: uppercase;    */
 }
 
-.conteudo .contato .nome {
+.conteudo-container .contato .nome {
   font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: 700;
 }
 
-.conteudo .contato .sobrenome {
+.conteudo-container .contato .sobrenome {
   font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   color: var(--cor-link);
@@ -168,7 +172,7 @@ h6 {
   font-weight: 700;
 }
 
-.conteudo .contato .dados-contato {
+.conteudo-container .contato .dados-contato {
   font-family: "Saira Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
@@ -176,18 +180,18 @@ h6 {
   color: var(--cor-link);
 }
 
-.conteudo .contato .dados-contato a {
+.conteudo-container .contato .dados-contato a {
   color: var(--cor-link-secundario);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.5s ease;
 }
 
-.conteudo .contato .dados-contato a:hover {
+.conteudo-container .contato .dados-contato a:hover {
   color: var(--cor-link-hover);
 }
 
-.conteudo .contato .sobre {
+.conteudo-container .contato .sobre {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
   line-height: 1.1;
@@ -195,7 +199,7 @@ h6 {
   text-align: justify;
 }
 
-.conteudo .contato .sobre p {
+.conteudo-container .contato .sobre p {
   margin-bottom: 1.2rem;
 }
 
@@ -216,9 +220,9 @@ h6 {
   color: var(--cor-iconesSocial-hover);
 }
 
-.conteudo .experiencias,
-.conteudo .formacao,
-.conteudo .habilidade {
+.conteudo-container .experiencias,
+.conteudo-container .formacao,
+.conteudo-container .habilidade {
   width: 100%;
   margin-top: 3rem;
 }
@@ -302,6 +306,11 @@ h6 {
   margin: 8px 0;        
   line-height: 1.2;     
   word-wrap: break-word; 
+}
+
+.interesses-item .descricao p { 
+  font-size: 1.3rem;
+ 
 }
 
 .experiencia-item .descricao a {
