@@ -1,5 +1,17 @@
 [
   {
+    "cargo": "Software Developer",
+    "resumo": "Soluções de gestão",
+    "empresa": "Senior Sistemas",
+    "link": "https://www.senior.com.br/",
+    "descricao": [
+      "Atuação em projetos voltados à Gestão de Pessoas (HCM), utilizando tecnologias como os aplicativos XT Senior e a X Platform.",
+      "Participação ativa no desenvolvimento de integrações com APIs RESTful, com foco na automação dos processos de importação e exportação de dados entre sistemas heterogêneos.",
+      "Desenvolvimento de fluxos automatizados com ferramentas como CONNECT e linguagens como LSP e Java, com foco em manutenções, melhorias contínuas e customizações que geram ganhos reais de produtividade para o time."      
+    ],
+    "periodo": "Abril 2024 - O momento"
+  },
+  {
     "cargo": "Analista de Desenvolvimento de Sistemas",
     "resumo": "Soluções em aplicações web",
     "empresa": "Mactus Soluções em T.I.",

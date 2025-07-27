@@ -1,0 +1,92 @@
+[
+   {
+    "instituicao": "Centro Universitário Integrado",
+    "tipoCurso": "Pós-Graduação",    
+    "descricao": [
+      "Banco de Dados"      
+    ],
+    "periodo": "Fevereiro 2024 - Dezembro 2024"
+  },
+  {
+    "instituicao": "IGTI - Instituto de Gestão em Tecnologia da Informação",
+    "tipoCurso": "Bootcamp",    
+    "descricao": [
+      "Desenvolvedor NODE.JS"      
+    ],
+    "periodo": "Outubro 2021 - Dezembro 2021"
+  },
+  {
+    "instituicao": "IGTI - Instituto de Gestão em Tecnologia da Informação",
+    "tipoCurso": "Bootcamp",    
+    "descricao": [
+      "Desenvolvedor Front-End"      
+    ],
+    "periodo": "Julho 2021 - Outubro 2021"
+  },
+  {
+    "instituicao": "Cod3r",
+    "tipoCurso": "Curso de Capacitação",    
+    "descricao": [
+      "Angular 9 - Essencial"      
+    ],
+    "periodo": "13 Horas - Julho 2021"
+  },
+  {  
+    "instituicao": "UniCesumar",
+    "tipoCurso": "Graduação",    
+    "descricao": [
+      "Superior em Tecnologia e Análise e Desenvolvimento de Sistemas"      
+    ],
+    "periodo": "Fevereiro 2012 - Novembro 2014"
+  },
+  {
+    "instituicao": "Senai - Centro de Educação Profissional do Paraná",
+    "tipoCurso": "Técnico",    
+    "descricao": [
+      "Técnico em Eletrônica"      
+    ],
+    "periodo": "Fevereiro 2010 - Dezembro 2011"
+  },
+  {
+    "instituicao": "Senai - Centro de Educação Profissional do Paraná",
+    "tipoCurso": "Curso de Capacitação",    
+    "descricao": [
+      "Programação de Microcontroladores PIC"      
+    ],
+    "periodo": "Setembro 2010 - Dezembro 2010"
+  },
+  {
+    "instituicao": "Fundação Educere",
+    "tipoCurso": "Curso de Capacitação",    
+    "descricao": [
+      "Compatibilidade Eletromagnética"      
+    ],
+    "periodo": "12 Horas - Agosto 2010"
+  },
+  {
+    "instituicao": "Fundação Educere",
+    "tipoCurso": "Curso de Capacitação",    
+    "descricao": [
+      "Gerenciamento de Prazos e Projetos"      
+    ],
+    "periodo": "6 Horas - Junho 2010"
+  },
+  {
+    "instituicao": "Colégio Estadual Vicente Leporace",
+    "tipoCurso": "Ensino Fundamental e Médio",    
+    "descricao": [
+      "Ensino Médio"      
+    ],
+    "periodo": "Fevereiro 2000 - Dezembro 2002"
+  },{
+    "instituicao": "Colégio Estadual Vicente Leporace",
+    "tipoCurso": "Ensino Fundamental e Médio",    
+    "descricao": [
+      "Ensino Fundamental"      
+    ],
+    "periodo": "Fevereiro 1993 - Dezembro 1999"
+  }
+  
+
+   
+]
