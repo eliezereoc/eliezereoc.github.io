@@ -1,0 +1,27 @@
+{
+  "name": "Eliézer de Oliveira - Desenvolvedor Full Stack",
+  "short_name": "Eliézer Portfolio",
+  "description": "Portfolio profissional de Eliézer de Oliveira, desenvolvedor full stack especializado em Node.js, React e tecnologias web modernas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3182ce",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/img/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "productivity", "education"],
+  "screenshots": [
+    {
+      "src": "assets/img/profile.jpg",
+      "sizes": "640x480",
+      "type": "image/jpeg"
+    }
+  ]
+}

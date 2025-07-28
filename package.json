@@ -1,0 +1,56 @@
+{
+  "name": "eliezereoc-portfolio",
+  "version": "2.0.0",
+  "description": "Portfolio profissional de Eliézer de Oliveira Cardoso - Desenvolvedor Full Stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests configured'",
+    "lint": "echo 'No linting configured'",
+    "deploy": "echo 'Deploy via GitHub Pages'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliezereoc/eliezereoc.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "javascript",
+    "html",
+    "css",
+    "responsive",
+    "pwa"
+  ],
+  "author": {
+    "name": "Eliézer de Oliveira Cardoso",
+    "email": "eliezeroc@gmail.com",
+    "url": "https://eliezereoc.github.io"
+  },
+  "license": "MIT",
+  "homepage": "https://eliezereoc.github.io",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.8"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "config": {
+    "theme": {
+      "primary": "#3182ce",
+      "secondary": "#4a5568",
+      "accent": "#38a169"
+    },
+    "features": {
+      "darkMode": true,
+      "pwa": true,
+      "responsive": true,
+      "animations": true
+    }
+  }
+}

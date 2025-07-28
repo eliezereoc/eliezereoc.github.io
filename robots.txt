@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://eliezereoc.github.io/sitemap.xml
+
+# Disallow specific files
+Disallow: /assets/dados/
+Disallow: /*.json
+
+# Allow important files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/

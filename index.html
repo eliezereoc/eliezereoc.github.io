@@ -6,19 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Olá! Sou Eliezer, desenvolvedor apaixonado por tecnologia. Aqui você encontra meus projetos, experiências e habilidades em software."
+      content="Desenvolvedor Full Stack com 15+ anos de experiência. Especialista em Node.js, React, Angular, API REST e desenvolvimento web moderno. Portfólio com projetos reais."
     />
     <meta name="author" content="Eliezer de Oliveira Cardoso" />
     <meta name="robots" content="index, follow" />
-    <title>Eliézer de Oliveira</title>
+    <meta name="keywords" content="desenvolvedor, full stack, javascript, node.js, react, angular, backend, frontend, portfolio" />
+    <meta name="theme-color" content="#546e7a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Eliézer Portfolio" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="canonical" href="https://eliezereoc.github.io/" />
+    <title>Eliézer de Oliveira - Desenvolvedor Full Stack</title>
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 
 
-    <meta property="og:title" content="Eliezer - Desenvolvedor Full Stack" />
-    <meta property="og:description" content="Conheça meus projetos, experiências e habilidades em desenvolvimento de software e hardware." />
+    <meta property="og:title" content="Eliézer de Oliveira - Desenvolvedor Full Stack" />
+    <meta property="og:description" content="Desenvolvedor Full Stack com 15+ anos de experiência. Especialista em Node.js, React, Angular e desenvolvimento web moderno. Confira meus projetos e experiências." />
     <meta property="og:image" content="https://eliezereoc.github.io/assets/img/profile.jpg" />
     <meta property="og:url" content="https://eliezereoc.github.io" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Eliézer de Oliveira - Portfolio" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eliézer de Oliveira - Desenvolvedor Full Stack" />
+    <meta name="twitter:description" content="Desenvolvedor Full Stack com 15+ anos de experiência. Especialista em Node.js, React, Angular e desenvolvimento web moderno." />
+    <meta name="twitter:image" content="https://eliezereoc.github.io/assets/img/profile.jpg" />
+    <meta name="twitter:creator" content="@eliezer_oc" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -33,10 +49,68 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Eliézer de Oliveira Cardoso",
+      "jobTitle": "Desenvolvedor Full Stack",
+      "description": "Desenvolvedor Full Stack com mais de 15 anos de experiência em desenvolvimento de software, especializado em Node.js, React, Angular e tecnologias web modernas.",
+      "url": "https://eliezereoc.github.io",
+      "email": "eliezeroc@gmail.com",
+      "telephone": "+55-44-99933-2887",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Campo Mourão",
+        "addressRegion": "Paraná",
+        "addressCountry": "Brasil"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/",
+        "https://github.com/eliezereoc",
+        "https://www.instagram.com/eliezer_oc/",
+        "https://www.facebook.com/eliezereoc"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Senior Sistemas"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "UniCesumar"
+        },
+        {
+          "@type": "EducationalOrganization", 
+          "name": "Centro Universitário Integrado"
+        }
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "Node.js",
+        "React",
+        "Angular",
+        "API REST",
+        "MySQL",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "HTML5",
+        "CSS3",
+        "TypeScript"
+      ]
+    }
+    </script>
   </head>
   <body>
     <button id="menuToggle" class="menu-toggler" aria-label="Abrir menu">
       ☰
+    </button>
+
+    <button id="themeToggle" class="theme-toggler" aria-label="Alternar tema">
+      🌙
     </button>
 
     <div class="navbar-lateral" id="sideNav">
@@ -50,8 +124,8 @@
           <li><a class="nav-link" data-title="De onde venho" href="#experiencia">Experiência</a></li>
           <li><a class="nav-link" data-title="O que estudei" href="#formacao">Formação</a></li>
           <li><a class="nav-link" data-title="Do que sou capaz" href="#habilidade">Habilidades</a></li>
+          <li><a class="nav-link" data-title="Meus trabalhos" href="#projetos">Projetos</a></li>
           <li><a class="nav-link" data-title="Estou interessado em..." href="#interesses">Interesses</a></li>
-          <!-- <li><a class="nav-link" href="#projetos">Projetos</a></li> -->
         </ul>
       </nav>
     </div>
@@ -76,18 +150,24 @@
 
           <section class="sobre mb-5">
             <p>
-              Desenvolvedor Full Stack com mais de 15 anos de experiência em
-              desenvolvimento de software. Graduado em Análise e Desenvolvimento
-              de Sistemas e especialista em Banco de Dados, tenho atuado nos
-              últimos anos na criação de soluções web e mobile voltadas à gestão
-              de pessoas, com foco na integração com plataformas da Senior
-              Sistemas.
+              <strong>Desenvolvedor Full Stack</strong> com mais de 15 anos de experiência em 
+              desenvolvimento de software, especializado na criação de soluções robustas e escaláveis. 
+              Graduado em <em>Análise e Desenvolvimento de Sistemas</em> e pós-graduado em 
+              <em>Banco de Dados</em>, possuo ampla experiência tanto no desenvolvimento web quanto 
+              em sistemas embarcados.
             </p>
             <p>
-              Tenho boa familiaridade com tecnologias como Node.js, REST APIs,
-              SQL, Angular, React Native e outras ferramentas modernas. Acredito
-              na tecnologia como meio de transformação e busco sempre entregar
-              soluções funcionais, escaláveis e que façam a diferença.
+              Nos últimos anos, tenho focado no desenvolvimento de <strong>aplicações web e mobile</strong> 
+              voltadas à gestão de pessoas, com expertise em integração com plataformas da Senior Sistemas. 
+              Domino tecnologias modernas como <em>Node.js, React, Angular, TypeScript</em> e tenho 
+              sólidos conhecimentos em <em>arquitetura de APIs REST, bancos de dados relacionais</em> 
+              e <em>metodologias ágeis</em>.
+            </p>
+            <p>
+              Além do desenvolvimento web, possuo experiência única em <strong>hardware e software embarcado</strong>, 
+              tendo trabalhado em projetos de automação para os setores médico e agrícola. Esta combinação 
+              de habilidades me permite entregar soluções completas, desde o firmware até interfaces de usuário 
+              modernas e intuitivas.
             </p>
           </section>
 
@@ -151,32 +231,144 @@
                     <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                     <li class="list-inline-item"><i class="fab fa-sass"></i></li>
                     <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-node-js"></i></lFi>
+                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
                     <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-git-square"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-git-alt"></i></li>
                     <li class="list-inline-item"><i class="fab fa-github"></i></li>
                   </ul>
                 <div class="sub-descricao-outros">Outros</div>   
                 <ul class="fa-ul mb-0">
                   <li>
-                    <span class="fa-li"><i class="fas fa-gem"></i></span>
-                    API Rest, CORS, Express, Swagger UI, OAuth 2.0, Sequelize
+                    <span class="fa-li"><i class="fas fa-server"></i></span>
+                    API REST, GraphQL, CORS, Express, Swagger UI, OAuth 2.0, JWT
                   </li>
                   <li>
-                    <span class="fa-li"><i class="fas fa-gem"></i></span>
-                    Jest, TDD, Noções de UI e UX, Bootstrap
+                    <span class="fa-li"><i class="fas fa-database"></i></span>
+                    MySQL, PostgreSQL, MongoDB, Sequelize, Prisma ORM
                   </li>
                   <li>
-                    <span class="fa-li"><i class="fas fa-gem"></i></span>
-                    Electron, MySql, PostgreSQL, C, Docker, TypeScript, VSCode
+                    <span class="fa-li"><i class="fas fa-code"></i></span>
+                    Jest, TDD, TypeScript, ESLint, Prettier, Webpack, Vite
                   </li>
                   <li>
-                    <span class="fa-li"><i class="fas fa-gem"></i></span>
-                    MPLab IDE/IPE, Altium Designer, CodeWarrior, Proteus, E2 Studio,
-                    GUIX
+                    <span class="fa-li"><i class="fas fa-mobile-alt"></i></span>
+                    React Native, Flutter, Electron, PWA
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-cloud"></i></span>
+                    Docker, AWS, Heroku, Vercel, CI/CD, GitHub Actions
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-microchip"></i></span>
+                    C/C++, Arduino, PIC, Altium Designer, Proteus, MPLAB
                   </li>
                 </ul>           
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="m-0" />
+
+        <section id="projetos" class="projetos">
+          <div class="resume-projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+              <div class="projeto-card">
+                <div class="projeto-header">
+                  <h3>CRUD Angular</h3>
+                  <div class="projeto-tech">
+                    <span class="tech-tag">Angular</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Material UI</span>
+                    <span class="tech-tag">JSON Server</span>
+                  </div>
+                </div>
+                <p>Sistema de cadastro completo desenvolvido em Angular com Material Design. Implementa operações CRUD para produtos e usuários, incluindo navegação, validação de formulários e interface responsiva.</p>
+                <div class="projeto-links">
+                  <a href="https://github.com/eliezereoc/crud-angular" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Código
+                  </a>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <div class="projeto-header">
+                  <h3>Fitness Academy</h3>
+                  <div class="projeto-tech">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">SASS</span>
+                    <span class="tech-tag">CSS3</span>
+                  </div>
+                </div>
+                <p>Landing page moderna para academia de ginástica com design responsivo. Apresenta carrossel de imagens, seções de serviços, planos de assinatura e formulário de contato, desenvolvida com Bootstrap 5.</p>
+                <div class="projeto-links">
+                  <a href="https://github.com/eliezereoc/FITNESS" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Código
+                  </a>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <div class="projeto-header">
+                  <h3>Docker Intro</h3>
+                  <div class="projeto-tech">
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Container</span>
+                  </div>
+                </div>
+                <p>Projeto introdutório ao Docker com servidor web Node.js. Demonstra conceitos fundamentais de containerização, Dockerfile, docker-compose e principais comandos Docker para iniciantes.</p>
+                <div class="projeto-links">
+                  <a href="https://github.com/eliezereoc/docker-intro" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Código
+                  </a>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <div class="projeto-header">
+                  <h3>Docker PostgreSQL</h3>
+                  <div class="projeto-tech">
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">pgAdmin</span>
+                    <span class="tech-tag">Database</span>
+                  </div>
+                </div>
+                <p>Ambiente de desenvolvimento com PostgreSQL e pgAdmin 4 usando Docker Compose. Configuração completa para banco de dados com interface de administração, volumes persistentes e rede isolada.</p>
+                <div class="projeto-links">
+                  <a href="https://github.com/eliezereoc/docker-postgres" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Código
+                  </a>
+                </div>
+              </div>
+
+              <div class="projeto-card">
+                <div class="projeto-header">
+                  <h3>Portfolio Pessoal</h3>
+                  <div class="projeto-tech">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">PWA</span>
+                  </div>
+                </div>
+                <p>Website pessoal responsivo desenvolvido com foco em performance, acessibilidade e SEO. Progressive Web App com tema claro/escuro, Service Worker e apresentação profissional de experiências e projetos.</p>
+                <div class="projeto-links">
+                  <a href="https://github.com/eliezereoc/eliezereoc.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> Código
+                  </a>
+                  <a href="https://eliezereoc.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-external-link-alt"></i> Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -210,5 +402,20 @@
     <script src="assets/js/carregar-experiencias.js"></script>
     <script src="assets/js/carregar-formacao.js"></script>
     <script src="assets/js/scripts.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch(function(error) {
+              console.log('ServiceWorker registration failed: ', error);
+            });
+        });
+      }
+    </script>
   </body>
 </html>

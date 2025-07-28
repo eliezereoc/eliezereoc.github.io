@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38a169;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f855a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad2)" opacity="0.1"/>
+  
+  <!-- Project folder -->
+  <rect x="40" y="60" width="120" height="90" rx="8" fill="none" stroke="#38a169" stroke-width="3"/>
+  <rect x="40" y="50" width="30" height="15" rx="3" fill="#38a169"/>
+  
+  <!-- Project files -->
+  <rect x="55" y="80" width="90" height="8" rx="2" fill="#38a169" opacity="0.7"/>
+  <rect x="55" y="95" width="70" height="8" rx="2" fill="#38a169" opacity="0.5"/>
+  <rect x="55" y="110" width="85" height="8" rx="2" fill="#38a169" opacity="0.6"/>
+  <rect x="55" y="125" width="60" height="8" rx="2" fill="#38a169" opacity="0.4"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="160" cy="70" r="4" fill="#38a169"/>
+  <circle cx="170" cy="80" r="3" fill="#38a169" opacity="0.7"/>
+  <circle cx="165" cy="90" r="2" fill="#38a169" opacity="0.5"/>
+</svg>
