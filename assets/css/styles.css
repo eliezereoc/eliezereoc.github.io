@@ -1,3 +1,4 @@
+
 :root {
   --cor-fundoPrincipal: #f8fafc;
   --cor-navbar: #e2e8f0;
@@ -652,6 +653,18 @@ h6 {
 .retry-btn:hover {
   background: var(--cor-link-secundario);
   transform: translateY(-1px);
+}
+
+footer {
+  background: var(--cor-navbar);
+  color: var(--cor-textoPrincipal);
+  padding: 0.5rem 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+[data-theme="dark"] footer {
+  background: var(--cor-navbar);
+  color: var(--cor-textoPrincipal);
 }
 
 /* Print styles */
