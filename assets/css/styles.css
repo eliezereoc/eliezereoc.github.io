@@ -858,3 +858,18 @@ footer {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   color: #90cdf4;
 }
+
+.accordion-header {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.accordion-header button {
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;  
+}
+
+.accordion-header i {
+  font-size: 1.2rem !important;  
+  margin-right: 5px;
+}
