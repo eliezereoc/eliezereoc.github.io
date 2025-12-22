@@ -1,0 +1,154 @@
+[
+  {
+    "categoria": "Backend",
+    "icone": "fas fa-server",
+    "itens": [
+      {
+        "titulo": "Node.js",
+        "descricao": "Runtime JavaScript em servidor"
+      },
+      {
+        "titulo": "TypeScript",
+        "descricao": "Type-safe para melhor qualidade de código"
+      },
+      {
+        "titulo": "Express",
+        "descricao": "Framework web minimalista e poderoso"
+      },
+      {
+        "titulo": "APIs REST",
+        "descricao": "Design de endpoints escaláveis e semânticos"
+      },
+      {
+        "titulo": "Autenticação",
+        "descricao": "JWT, OAuth2 e estratégias seguras de sessão"
+      },
+      {
+        "titulo": "Arquitetura em camadas",
+        "descricao": "Controllers, Services, Repositories"
+      },
+      {
+        "titulo": "Versionamento com Git",
+        "descricao": "Workflows, branches e colaboração"
+      }
+    ]
+  },
+  {
+    "categoria": "Integrações & Arquitetura",
+    "icone": "fas fa-puzzle-piece",
+    "itens": [
+      {
+        "titulo": "Integração entre sistemas",
+        "descricao": "Sincronização de dados e processos"
+      },
+      {
+        "titulo": "Webhooks",
+        "descricao": "Comunicação assíncrona entre aplicações"
+      },
+      {
+        "titulo": "APIs externas",
+        "descricao": "Consumo e integração de serviços terceiros"
+      },
+      {
+        "titulo": "Automação de processos",
+        "descricao": "Workflows e pipelines automatizados"
+      },
+      {
+        "titulo": "Integração corporativa",
+        "descricao": "Experiência em ambientes enterprise (Senior Sistemas)"
+      }
+    ]
+  },
+  {
+    "categoria": "Banco de Dados",
+    "icone": "fas fa-database",
+    "itens": [
+      {
+        "titulo": "MySQL / MariaDB",
+        "descricao": "Bancos relacionais tradicionais"
+      },
+      {
+        "titulo": "PostgreSQL",
+        "descricao": "SGBD avançado com extensões poderosas"
+      },
+      {
+        "titulo": "Modelagem relacional",
+        "descricao": "ER diagrams, normalização, constraints"
+      },
+      {
+        "titulo": "Consultas otimizadas",
+        "descricao": "Performance tuning e índices"
+      },
+      {
+        "titulo": "Stored procedures",
+        "descricao": "Lógica complexa em banco de dados"
+      }
+    ]
+  },
+  {
+    "categoria": "Ferramentas e Plataforma",
+    "icone": "fas fa-toolbox",
+    "itens": [
+      {
+        "titulo": "GitHub",
+        "descricao": "Versionamento, colaboração e repositórios"
+      },
+      {
+        "titulo": "GitHub Actions",
+        "descricao": "CI/CD pipelines automatizados"
+      },
+      {
+        "titulo": "Docker",
+        "descricao": "Containerização e orquestração de aplicações"
+      },
+      {
+        "titulo": "VS Code",
+        "descricao": "IDE principal de desenvolvimento"
+      },
+      {
+        "titulo": "Linux / Terminal",
+        "descricao": "Ambiente UNIX, bash scripts e line tools"
+      }
+    ]
+  },
+  {
+    "categoria": "Front-end (resumido)",
+    "icone": "fas fa-palette",
+    "itens": [
+      {
+        "titulo": "HTML",
+        "descricao": "Semântica e acessibilidade"
+      },
+      {
+        "titulo": "CSS",
+        "descricao": "Layout, responsividade e animações"
+      },
+      {
+        "titulo": "JavaScript",
+        "descricao": "Linguagem fundamental do navegador"
+      },
+      {
+        "titulo": "Angular",
+        "descricao": "Framework (nível intermediário)"
+      }
+    ]
+  },
+  {
+    "categoria": "Outras habilidades / Diferenciais",
+    "icone": "fas fa-star",
+    "itens": [
+      {
+        "titulo": "Sistemas embarcados",
+        "descricao": "Arduino, PIC, microcontroladores"
+      },
+      {
+        "titulo": "Integrações em ambiente enterprise",
+        "descricao": "Desafios corporativos complexos"
+      },
+      {
+        "titulo": "Senior Sistemas (LSP)",
+        "descricao": "Experiência em plataforma corporativa"
+      }
+    ]
+  }
+]
