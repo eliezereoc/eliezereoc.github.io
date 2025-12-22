@@ -149,57 +149,87 @@
           </div>
 
           <section class="sobre mb-5">
-            <p>
-              <strong>Desenvolvedor Full Stack</strong> com mais de 15 anos de experiência em 
-              desenvolvimento de software, especializado na criação de soluções robustas e escaláveis. 
-              Graduado em <em>Análise e Desenvolvimento de Sistemas</em> e pós-graduado em 
-              <em>Banco de Dados</em>, possuo ampla experiência tanto no desenvolvimento web quanto 
-              em sistemas embarcados.
-            </p>
-            <p>
-              Nos últimos anos, tenho focado no desenvolvimento de <strong>aplicações web e mobile</strong> 
-              voltadas à gestão de pessoas, com expertise em integração com plataformas da Senior Sistemas. 
-              Domino tecnologias modernas como <em>Node.js, React, Angular, TypeScript</em> e tenho 
-              sólidos conhecimentos em <em>arquitetura de APIs REST, bancos de dados relacionais</em> 
-              e <em>metodologias ágeis</em>.
-            </p>
-            <p>
-              Além do desenvolvimento web, possuo experiência única em <strong>hardware e software embarcado</strong>, 
-              tendo trabalhado em projetos de automação para os setores médico e agrícola. Esta combinação 
-              de habilidades me permite entregar soluções completas, desde o firmware até interfaces de usuário 
-              modernas e intuitivas.
-            </p>
+            <h2 class="sobre-titulo">Backend & Integrations Developer</h2>
+            
+            <div class="sobre-conteudo">
+              <p class="sobre-paragrafo">
+                Sou desenvolvedor especializado em backend e integrações, com mais de <span id="anosExperiencia"></span> anos de experiência construindo soluções robustas, APIs escaláveis e conectando sistemas em ambientes corporativos. Meu foco é entregar aplicações seguras, organizadas e fáceis de manter, sempre aplicando boas práticas de arquitetura e padrões modernos de desenvolvimento.
+              </p>
+
+              <p class="sobre-paragrafo">
+                Atuo com Node.js, Express, TypeScript, MySQL/MariaDB, modelagem de dados, autenticação segura (JWT/OAuth2) e construção de APIs REST estruturadas em camadas. Tenho experiência integrando plataformas empresariais e resolvendo desafios de comunicação entre sistemas, garantindo eficiência, confiabilidade e escalabilidade.
+              </p>
+
+              <p class="sobre-paragrafo">
+                Além do backend, trago bagagem em projetos embarcados e automações, o que me dá uma visão ampla de problemas técnicos e contribui para criar soluções bem estruturadas e integráveis. Estou sempre evoluindo tecnicamente e explorando novas tecnologias para entregar valor real em cada projeto.
+              </p>
+            </div>
+
+            <div class="sobre-acoes">
+              <a href="#projetos" class="botao-acao botao-acao--destaque">
+                <div class="botao-acao__icone">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>Projetos Backend</h3>
+                  <p>Veja casos de uso</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
+
+              <a href="https://github.com/eliezereoc" target="_blank" rel="noopener noreferrer" class="botao-acao">
+                <div class="botao-acao__icone">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>GitHub</h3>
+                  <p>Repositórios públicos</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
+
+              <a href="mailto:eliezeroc@gmail.com" class="botao-acao">
+                <div class="botao-acao__icone">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>Vamos conversar?</h3>
+                  <p>Estou disponível</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
+            </div>
           </section>
 
           <div class="social-icons">
             <a
-              class="social-icon"
+              class="social-icon-link"
               href="https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/"
               target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
             <a
-              class="social-icon"
-              href="http://github.com/eliezereoc"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              class="social-icon"
+              class="social-icon-link"
               href="https://www.instagram.com/eliezer_oc/"
               target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              class="social-icon"
-              href="https://www.facebook.com/eliezereoc"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
           </div>
         </div>
 
-        <hr class="m-0" />
+        <hr class="m-1" />
 
         <section id="experiencia" class="experiencias">
           <div class="resumo-experiencias">
@@ -222,52 +252,217 @@
         <section id="habilidade" class="habilidade">
           <div class="resume-habilidade">
             <h2>Habilidades</h2>
+
+            <!-- Backend -->
             <div class="habilidade-item">
-              <div class="descricao">              
-                <div class="sub-descricao">Linguagens de programação & Ferramentas</div>              
-                <div class="sub-descricao-stack">STACK</div>   
-                  <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-git-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                  </ul>
-                <div class="sub-descricao-outros">Outros</div>   
-                <ul class="fa-ul mb-0">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-server"></i> Backend</div>
+                <ul class="fa-ul mb-3">
                   <li>
-                    <span class="fa-li"><i class="fas fa-server"></i></span>
-                    API REST, GraphQL, CORS, Express, Swagger UI, OAuth 2.0, JWT
-                  </li>
-                  <li>
-                    <span class="fa-li"><i class="fas fa-database"></i></span>
-                    MySQL, PostgreSQL, MongoDB, Sequelize, Prisma ORM
+                    <span class="fa-li"><i class="fab fa-node-js"></i></span>
+                    Node.js - Runtime JavaScript em servidor
                   </li>
                   <li>
                     <span class="fa-li"><i class="fas fa-code"></i></span>
-                    Jest, TDD, TypeScript, ESLint, Prettier, Webpack, Vite
+                    TypeScript - Type-safe para melhor qualidade de código
                   </li>
                   <li>
-                    <span class="fa-li"><i class="fas fa-mobile-alt"></i></span>
-                    React Native, Flutter, Electron, PWA
+                    <span class="fa-li"><i class="fas fa-link"></i></span>
+                    Express - Framework web minimalista e poderoso
                   </li>
                   <li>
-                    <span class="fa-li"><i class="fas fa-cloud"></i></span>
-                    Docker, AWS, Heroku, Vercel, CI/CD, GitHub Actions
+                    <span class="fa-li"><i class="fas fa-exchange-alt"></i></span>
+                    APIs REST - Design de endpoints escaláveis e semânticos
                   </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-lock"></i></span>
+                    Autenticação - JWT, OAuth2 e estratégias seguras de sessão
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-layer-group"></i></span>
+                    Arquitetura em camadas - Controllers, Services, Repositories
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-git-alt"></i></span>
+                    Versionamento com Git - Workflows, branches e colaboração
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Integrações & Arquitetura -->
+            <div class="habilidade-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-puzzle-piece"></i> Integrações &amp; Arquitetura</div>
+                <ul class="fa-ul mb-3">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-compress-alt"></i></span>
+                    Integração entre sistemas - Sincronização de dados e processos
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-webhook"></i></span>
+                    Webhooks - Comunicação assíncrona entre aplicações
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-plug"></i></span>
+                    APIs externas - Consumo e integração de serviços terceiros
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-cogs"></i></span>
+                    Automação de processos - Workflows e pipelines automatizados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-building"></i></span>
+                    Integração corporativa - Experiência em ambientes enterprise (Senior Sistemas)
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Banco de Dados -->
+            <div class="habilidade-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-database"></i> Banco de Dados</div>
+                <ul class="fa-ul mb-3">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-table"></i></span>
+                    MySQL / MariaDB - Bancos relacionais tradicionais
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-database"></i></span>
+                    PostgreSQL - SGBD avançado com extensões poderosas
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-diagram-project"></i></span>
+                    Modelagem relacional - ER diagrams, normalização, constraints
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-tachometer-alt"></i></span>
+                    Consultas otimizadas - Performance tuning e índices
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-cube"></i></span>
+                    Stored procedures - Lógica complexa em banco de dados
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Ferramentas e Plataforma -->
+            <div class="habilidade-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-toolbox"></i> Ferramentas e Plataforma</div>
+                <ul class="fa-ul mb-3">
+                  <li>
+                    <span class="fa-li"><i class="fab fa-github"></i></span>
+                    GitHub - Versionamento, colaboração e repositórios
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-robot"></i></span>
+                    GitHub Actions - CI/CD pipelines automatizados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-docker"></i></span>
+                    Docker - Containerização e orquestração de aplicações
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-edit"></i></span>
+                    VS Code - IDE principal de desenvolvimento
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-linux"></i></span>
+                    Linux / Terminal - Ambiente UNIX, bash scripts e line tools
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Front-end (resumido) -->
+            <div class="habilidade-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-palette"></i> Front-end (resumido)</div>
+                <ul class="fa-ul mb-3">
+                  <li>
+                    <span class="fa-li"><i class="fab fa-html5"></i></span>
+                    HTML - Semântica e acessibilidade
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-css3-alt"></i></span>
+                    CSS - Layout, responsividade e animações
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-js-square"></i></span>
+                    JavaScript - Linguagem fundamental do navegador
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fab fa-angular"></i></span>
+                    Angular - Framework (nível intermediário)
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Outras habilidades / Diferenciais -->
+            <div class="habilidade-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-star"></i> Outras habilidades / Diferenciais</div>
+                <ul class="fa-ul mb-0">
                   <li>
                     <span class="fa-li"><i class="fas fa-microchip"></i></span>
-                    C/C++, Arduino, PIC, Altium Designer, Proteus, MPLAB
+                    Sistemas embarcados - Arduino, PIC, microcontroladores
                   </li>
-                </ul>           
+                  <li>
+                    <span class="fa-li"><i class="fas fa-network-wired"></i></span>
+                    Integrações em ambiente enterprise - Desafios corporativos complexos
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-crown"></i></span>
+                    Senior Sistemas (LSP) - Experiência em plataforma corporativa
+                  </li>
+                </ul>
               </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="habilidade-ctas mt-4">
+              <a href="#projetos" class="botao-acao botao-acao--destaque" style="margin-bottom: 1rem;">
+                <div class="botao-acao__icone">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>Projetos Backend</h3>
+                  <p>Veja casos de uso</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
+
+              <a href="https://github.com/eliezereoc" target="_blank" rel="noopener noreferrer" class="botao-acao" style="margin-bottom: 1rem;">
+                <div class="botao-acao__icone">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>GitHub</h3>
+                  <p>Repositórios públicos</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
+
+              <a href="mailto:eliezeroc@gmail.com" class="botao-acao">
+                <div class="botao-acao__icone">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="botao-acao__conteudo">
+                  <h3>Entrar em contato</h3>
+                  <p>Estou disponível</p>
+                </div>
+                <div class="botao-acao__seta">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -277,140 +472,55 @@
         <section id="projetos" class="projetos">
           <div class="resume-projetos">
             <h2>Projetos</h2>
+             <div class="resume-projetos">
             <div class="projetos-grid">
               <div class="projeto-card">
                 <div class="projeto-header">
-                  <h3>CRUD Angular</h3>
+                  <h3 id="api-serve-node-title">API Server Node.js</h3>
                   <div class="projeto-tech">
-                    <span class="tech-tag">Angular</span>
-                    <span class="tech-tag">TypeScript</span>
-                    <span class="tech-tag">Material UI</span>
-                    <span class="tech-tag">JSON Server</span>
-                  </div>
-                </div>
-                <p>Sistema de cadastro completo desenvolvido em Angular com Material Design. Implementa operações CRUD para produtos e usuários, incluindo navegação, validação de formulários e interface responsiva.</p>
-                <div class="projeto-links">
-                  <a href="https://github.com/eliezereoc/crud-angular" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Código
-                  </a>
-                </div>
-              </div>
-
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Fitness Academy</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">HTML5</span>
-                    <span class="tech-tag">Bootstrap</span>
-                    <span class="tech-tag">SASS</span>
-                    <span class="tech-tag">CSS3</span>
-                  </div>
-                </div>
-                <p>Landing page moderna para academia de ginástica com design responsivo. Apresenta carrossel de imagens, seções de serviços, planos de assinatura e formulário de contato, desenvolvida com Bootstrap 5.</p>
-                <div class="projeto-links">
-                  <a href="https://github.com/eliezereoc/FITNESS" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Código
-                  </a>
-                </div>
-              </div>
-
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Docker Intro</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">Docker</span>
                     <span class="tech-tag">Node.js</span>
                     <span class="tech-tag">Express</span>
-                    <span class="tech-tag">Container</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Knex</span>
+                    <span class="tech-tag">Swagger</span>
                   </div>
                 </div>
-                <p>Projeto introdutório ao Docker com servidor web Node.js. Demonstra conceitos fundamentais de containerização, Dockerfile, docker-compose e principais comandos Docker para iniciantes.</p>
-                <div class="projeto-links">
-                  <a href="https://github.com/eliezereoc/docker-intro" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Código
-                  </a>
-                </div>
-              </div>
+                <section class="projeto-conteudo">
+                  <p class="projeto-resumo"><strong>API REST robusta</strong> com autenticação JWT, documentação Swagger e arquitetura modular voltada a integrações corporativas.</p>
 
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Docker PostgreSQL</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">Docker</span>
-                    <span class="tech-tag">PostgreSQL</span>
-                    <span class="tech-tag">pgAdmin</span>
-                    <span class="tech-tag">Database</span>
+                  <h4>Problema que resolve</h4>
+                  <p>Padroniza serviços backend e autenticação, acelerando integrações entre sistemas com segurança, versionamento de banco e documentação acessível.</p>
+
+                  <h4>Impacto gerado</h4>
+                  <p>Reduz tempo de onboarding, aumenta confiabilidade das integrações e melhora observabilidade por meio de logs estruturados e testes automatizados.</p>
+
+                  <h4>Principais funcionalidades</h4>
+                  <ul>
+                    <li>Autenticação e autorização via JWT</li>
+                    <li>CRUD de usuários com validações</li>
+                    <li>Migrations e versionamento de schema com Knex</li>
+                    <li>Rate limiting, CORS e headers de segurança (Helmet)</li>
+                    <li>Swagger UI com endpoints documentados e testáveis</li>
+                    <li>Logs estruturados com Winston</li>
+                    <li>Arquitetura em camadas (controllers, services, repositories)</li>
+                    <li>Testes automatizados com Jest</li>
+                  </ul>
+
+                  <h4>Stack usada</h4>
+                  <p>Node.js, Express, MySQL/mysql2, Knex.js, JWT (jsonwebtoken), bcrypt, dotenv, Jest, Winston, Swagger, Helmet, CORS, express-rate-limit.</p>
+
+                  <div class="projeto-links">
+                    <a href="https://github.com/eliezereoc/api-serve-node" target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-github"></i> Código
+                    </a>
                   </div>
-                </div>
-                <p>Ambiente de desenvolvimento com PostgreSQL e pgAdmin 4 usando Docker Compose. Configuração completa para banco de dados com interface de administração, volumes persistentes e rede isolada.</p>
-                <div class="projeto-links">
-                  <a href="https://github.com/eliezereoc/docker-postgres" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Código
-                  </a>
-                </div>
+                </section>
               </div>
-
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Automação Plant Jet</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">C/C++</span>
-                    <span class="tech-tag">Microcontrolador</span>
-                    <span class="tech-tag">HMI</span>
-                    <span class="tech-tag">Agricultura 4.0</span>
-                  </div>
-                </div>
-                <p>Sistema de automação para pulverizadores de sulco Plant Jet com painel completamente funcional. Controla parâmetros de aplicação, bomba de agitação e monitoramento em tempo real para aplicação precisa de biológicos, fertilizantes e agroquímicos.</p>
-                <div class="projeto-links">
-                  <a href="https://www.plantinove.com.br/servicos/pulverizadores-de-sulco/#tab-id-3" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> Produto
-                  </a>
-                  <span class="projeto-status">Concluído</span>
-                </div>
-              </div>
-
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Portfolio Pessoal</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">HTML5</span>
-                    <span class="tech-tag">CSS3</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">PWA</span>
-                  </div>
-                </div>
-                <p>Website pessoal responsivo desenvolvido com foco em performance, acessibilidade e SEO. Progressive Web App com tema claro/escuro, Service Worker e apresentação profissional de experiências e projetos.</p>
-                <div class="projeto-links">
-                  <a href="https://github.com/eliezereoc/eliezereoc.github.io" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i> Código
-                  </a>
-                  <a href="https://eliezereoc.github.io" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> Demo
-                  </a>
-                </div>
-              </div>
-
-              <div class="projeto-card">
-                <div class="projeto-header">
-                  <h3>Site Cotabilidade Invicta</h3>
-                  <div class="projeto-tech">
-                    <span class="tech-tag">HTML5</span>
-                    <span class="tech-tag">CSS</span>
-                    <span class="tech-tag">Bootstrap</span>
-                    <span class="tech-tag">PHP</span>
-                  </div>
-                </div>
-                <p>Site institucional desenvolvido para a Cotabilidade Invicta, com foco em apresentar os serviços oferecidos e facilitar o contato com potenciais clientes.</p>
-                <div class="projeto-links">
-                  <a href="https://contabilidadeinvicta.com.br/" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> Produto
-                  </a>
-                  <span class="projeto-status">Concluído</span>
-                </div>
-              </div>
-
-
+              <!-- Adicionar um novo card aqui -->
+              
             </div>
+          </div>
           </div>
         </section>
 
@@ -419,16 +529,67 @@
         <section id="interesses" class="interesses">
           <div class="resume-interesses">
             <h2>Interesses</h2>
+
+            <!-- Interesses Profissionais -->
             <div class="interesses-item">
-              <div class="descricao">                         
-                <p>Além de atuar como desenvolvedor web back-end e front-end, 
-                  também me dedico ao desenvolvimento de hardware e software para 
-                  circuitos eletrônicos, sejam microcontrolados ou não. 
-                  Busco constantemente aprimorar meus conhecimentos, praticando, 
-                  me capacitando e acompanhando novas tendências e tecnologias.</p>
-                  <p>Fora do ambiente de trabalho, valorizo meu papel como pai e esposo, pratico atividades físicas e me dedico ao meu hobby favorito.</p>
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-briefcase"></i> Interesses Profissionais</div>
+                <ul class="fa-ul mb-3">
+                  <li>
+                    <span class="fa-li"><i class="fab fa-node-js"></i></span>
+                    Desenvolvimento backend com Node.js
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-building"></i></span>
+                    Arquiteturas escaláveis
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-puzzle-piece"></i></span>
+                    Integrações entre sistemas
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-exchange-alt"></i></span>
+                    APIs REST e autenticação segura
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-cogs"></i></span>
+                    Automação e comunicação entre serviços
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-database"></i></span>
+                    Bancos de dados relacionais e modelagem
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-code"></i></span>
+                    Boas práticas, clean code e padrões de projeto
+                  </li>
+                </ul>
               </div>
-              
+            </div>
+
+            <!-- Interesses Pessoais -->
+            <div class="interesses-item">
+              <div class="descricao">
+                <div class="sub-descricao"><i class="fas fa-heart"></i> Interesses Pessoais</div>
+                <ul class="fa-ul mb-0">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-music"></i></span>
+                    Estudo de música
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-wind"></i></span>
+                    Flauta transversal (CCB)
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-lightbulb"></i></span>
+                    Tecnologia e inovação
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-seedling"></i></span>
+                    Desenvolvimento pessoal
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -439,6 +600,19 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Calcula dinamicamente o tempo de experiência
+      document.addEventListener('DOMContentLoaded', function() {
+        const anoInicio = 2018;
+        const anoAtual = new Date().getFullYear();
+        const anosExperiencia = anoAtual - anoInicio;
+        
+        const elemento = document.getElementById('anosExperiencia');
+        if (elemento) {
+          elemento.textContent = anosExperiencia;
+        }
+      });
+    </script>
     <script src="assets/js/carregar-experiencias.js"></script>
     <script src="assets/js/carregar-formacao.js"></script>
     <script src="assets/js/scripts.js"></script>
