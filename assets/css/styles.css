@@ -771,7 +771,7 @@ footer {
 /* ===== BOTÕES DE AÇÃO SOBRE ===== */
 .sobre-acoes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   margin-top: 1.5rem;
 }
