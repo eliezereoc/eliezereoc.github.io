@@ -965,3 +965,21 @@ footer {
   outline-offset: 2px;
 }
 
+/* Dark theme - Accordion Experiências backgrounds */
+/*[data-theme="dark"] .experiencias .accordion-item {
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255,2 );
+}
+
+[data-theme="dark"] .experiencias .accordion-body {
+  background-color: var(--cor-card-bg);
+  color: var(--cor-textoPrincipal);
+}
+
+[data-theme="dark"] .experiencias .accordion-body .sub-descricao {
+  color: var(--cor-descricao);
+}
+
+[data-theme="dark"] .experiencias .accordion-body .descricao-texto {
+  color: var(--cor-textoPrincipal);
+}*/
