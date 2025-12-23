@@ -877,6 +877,12 @@ footer {
 }
 
 /* Responsivo - Botões de ação */
+@media (max-width: 1200px) {
+  .sobre-acoes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .sobre-acoes {
     grid-template-columns: 1fr;
@@ -888,16 +894,48 @@ footer {
   }
   
   .botao-acao {
-    padding: 0.85rem;
+    padding: 1rem 0.85rem;
   }
   
   .botao-acao__icone {
-    font-size: 1.1rem;
-    min-width: 35px;
+    font-size: 1.2rem;
+    min-width: 38px;
   }
   
   .botao-acao__conteudo h3 {
     font-size: 0.9rem;
+  }
+  
+  .botao-acao__conteudo p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-acoes {
+    gap: 0.6rem;
+  }
+  
+  .botao-acao {
+    padding: 0.85rem 0.75rem;
+    gap: 0.65rem;
+  }
+  
+  .botao-acao__icone {
+    font-size: 1.1rem;
+    min-width: 32px;
+  }
+  
+  .botao-acao__conteudo h3 {
+    font-size: 0.85rem;
+  }
+  
+  .botao-acao__conteudo p {
+    font-size: 0.68rem;
+  }
+  
+  .botao-acao__seta {
+    font-size: 0.8rem;
   }
 }
 
