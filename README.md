@@ -12,7 +12,25 @@
 - **LinkedIn**: [linkedin.com/in/eliezer-de-oliveira-cardoso-260354165](https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/)
 - **Portfólio**: [eliezereoc.github.io](https://eliezereoc.github.io/)
 
-## ✨ Características
+---
+
+## 🌟 Destaques dos Principais Projetos
+
+### 📡 API Serve Node
+Servidor Node.js robusto e escalável para integração e processamento de dados em tempo real.
+- **Tecnologias**: Node.js, Express, JavaScript
+- **Destaques**: Arquitetura modular, tratamento de erros, performance otimizada
+- **🔗 [Código](https://github.com/eliezereoc/api-serve-node)** | **[Contribuir](https://github.com/eliezereoc/api-serve-node/issues)**
+
+### 🔗 API Integração
+Solução completa para integração de APIs com suporte a múltiplos protocolos e formatos de dados.
+- **Tecnologias**: Node.js, REST API, Middleware
+- **Destaques**: Integração facilitada, tratamento de autenticação, logging avançado
+- **🔗 [Código](https://github.com/eliezereoc/api-integracao)** | **[Contribuir](https://github.com/eliezereoc/api-integracao/issues)**
+
+---
+
+## ✨ Features
 
 - **📱 Design Responsivo**: Otimizado para desktop, tablet e mobile
 - **⚡ Performance**: Carregamento rápido e otimizado
@@ -103,7 +121,32 @@
 - **Breakpoints**: Suporte para todas as resoluções
 - **Touch Friendly**: Elementos adequados para touch
 
-## 🔧 Configuração de Desenvolvimento
+---
+
+## 🌟 Featured Projects Highlights
+
+### 📡 API Serve Node
+Robust and scalable Node.js server for data integration and real-time processing.
+- **Technologies**: Node.js, Express, JavaScript
+- **Highlights**: Modular architecture, error handling, optimized performance
+- **🔗 [Code](https://github.com/eliezereoc/api-serve-node)** | **[Contribute](https://github.com/eliezereoc/api-serve-node/issues)**
+
+### 🔗 API Integration
+Complete solution for API integration with support for multiple protocols and data formats.
+- **Technologies**: Node.js, REST API, Middleware
+- **Highlights**: Simplified integration, authentication handling, advanced logging
+- **🔗 [Code](https://github.com/eliezereoc/api-integracao)** | **[Contribute](https://github.com/eliezereoc/api-integracao/issues)**
+
+---
+
+## � Connect
+
+- **LinkedIn**: [linkedin.com/in/eliezer-de-oliveira-cardoso-260354165](https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/)
+- **Portfolio**: [eliezereoc.github.io](https://eliezereoc.github.io/)
+
+---
+
+## �🔧 Development Setup
 
 ### Pré-requisitos
 - Navegador moderno (Chrome, Firefox, Safari, Edge)
