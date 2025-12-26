@@ -7,6 +7,11 @@
 
 ## 🌐 [Visualizar Portfolio](https://eliezereoc.github.io/)
 
+## 🔗 Conecte-se
+
+- **LinkedIn**: [linkedin.com/in/eliezer-de-oliveira-cardoso-260354165](https://www.linkedin.com/in/eliezer-de-oliveira-cardoso-260354165/)
+- **Portfólio**: [eliezereoc.github.io](https://eliezereoc.github.io/)
+
 ## ✨ Características
 
 - **📱 Design Responsivo**: Otimizado para desktop, tablet e mobile
