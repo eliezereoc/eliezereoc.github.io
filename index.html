@@ -334,8 +334,9 @@
         <section id="projetos" class="projetos">
           <div class="resume-projetos">
             <h2>Projetos</h2>
-            
+                  
             <div class="accordion" id="accordionProjetos">
+              <!-- Projeto 1 -->
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjeto1" aria-expanded="true" aria-controls="collapseProjeto1">
@@ -345,6 +346,11 @@
                       <span class="tech-tag">Express</span>
                       <span class="tech-tag">MySQL</span>
                       <span class="tech-tag">JWT</span>
+                      <span class="tech-tag">Knex</span>
+                      <span class="tech-tag">Helmet</span>
+                      <span class="tech-tag">Swagger UI</span>
+                      <span class="tech-tag">Winston</span>
+                      <span class="tech-tag">Jest</span>
                     </span>
                   </button>
                 </h2>
@@ -380,9 +386,61 @@
                     </div>
                   </div>
                 </div>
+              </div>              
+              <!-- Projeto 1 -->
+
+              <!-- Projeto 2 --> 
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjeto2" aria-expanded="true" aria-controls="collapseProjeto2">
+                    <strong id="api-integracao-title">API de Integração</strong>
+                    <span style="margin-left: 0.5rem; opacity: 0.7;">
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Express</span>
+                      <span class="tech-tag">MySQL</span>
+                      <span class="tech-tag">Axios</span>
+                      <span class="tech-tag">Knex</span>
+                    </span>
+                  </button>
+                </h2>
+                <div id="collapseProjeto2" class="accordion-collapse collapse show" data-bs-parent="#accordionProjetos">
+                  <div class="accordion-body">
+                    <p class="projeto-resumo"><strong>API RESTful</strong> para sincronização com serviços externos, armazenamento de posts em MySQL e gerenciamento CRUD completo com validação robusta.</p>
+
+                    <h5>Problema que resolve</h5>
+                    <p>Integra dados de APIs externas com aplicações locais de forma segura e confiável, permitindo sincronização automática de posts, validação de dados obrigatória e persistência estruturada em banco de dados.</p>
+
+                    <h5>Impacto gerado</h5>
+                    <p>Automatiza a sincronização de dados externos, reduz erros de validação, garante consistência de dados e facilita a manutenção por meio de migrations automáticas e arquitetura modular bem estruturada.</p>
+
+                    <h5>Principais funcionalidades</h5>
+                    <ul>
+                      <li>Sincronização automática de posts de API externa via Axios</li>
+                      <li>CRUD completo de posts (Criar, Ler, Atualizar, Deletar)</li>
+                      <li>Validação obrigatória de campos: userId, title e body</li>
+                      <li>Banco de dados MySQL com migrations e rollback automáticos</li>
+                      <li>Arquitetura MVC com separação de responsabilidades</li>
+                      <li>Tratamento de erros detalhado com status HTTP apropriados</li>
+                      <li>Suporte a variáveis de ambiente com dotenv</li>
+                      <li>Desenvolvimento com reload automático via Nodemon</li>
+                    </ul>
+
+                    <h5>Stack usada</h5>
+                    <p>Node.js, Express.js, MySQL com mysql2, Knex.js para migrations, Axios para requisições HTTP, dotenv para variáveis de ambiente, Nodemon para desenvolvimento.</p>
+
+                    <div class="projeto-links">
+                      <a href="https://github.com/eliezereoc/api-integracao" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">
+                        <i class="fab fa-github"></i> Código
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <!-- Projeto 2 -->
+
               <!-- Adicionar um novo projeto aqui -->
             </div>
+
           </div>
         </section>
 
