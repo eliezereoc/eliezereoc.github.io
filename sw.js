@@ -1,4 +1,4 @@
-const CACHE_NAME = 'eliezer-portfolio-v1.0.0';
+const CACHE_NAME = 'eliezer-portfolio-v2.1.0';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -6,8 +6,10 @@ const urlsToCache = [
   '/assets/js/scripts.js',
   '/assets/js/carregar-experiencias.js',
   '/assets/js/carregar-formacao.js',
+  '/assets/js/carregar-habilidades.js',
   '/assets/dados/experiencias.json',
   '/assets/dados/formacao.json',
+  '/assets/dados/habilidades.json',
   '/assets/img/profile.jpg',
   '/assets/img/favicon.ico',
   '/assets/img/code-icon.svg',
@@ -20,6 +22,7 @@ const urlsToCache = [
 
 // Install event - cache resources
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
@@ -34,6 +37,23 @@ self.addEventListener('install', (event) => {
 
 // Fetch event - serve from cache when possible
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+  const isDynamicData = url.pathname.includes('/assets/dados/') ||
+    url.pathname.includes('/assets/js/carregar-');
+
+  if (isDynamicData) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
@@ -82,7 +102,7 @@ self.addEventListener('activate', (event) => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });
 

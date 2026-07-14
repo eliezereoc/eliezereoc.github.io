@@ -6,7 +6,7 @@ async function carregarHabilidades() {
   container.innerHTML = '<div class="loading-state">Carregando habilidades...</div>';
   
   try {
-    const response = await fetch('assets/dados/habilidades.json');
+    const response = await fetch('assets/dados/habilidades.json?v=2.1.0', { cache: 'no-store' });
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

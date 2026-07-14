@@ -6,7 +6,7 @@ async function carregarExperiencias() {
   container.innerHTML = '<div class="loading-state">Carregando experiências...</div>';
   
   try {
-    const response = await fetch('assets/dados/experiencias.json');
+    const response = await fetch('assets/dados/experiencias.json?v=2.1.0', { cache: 'no-store' });
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

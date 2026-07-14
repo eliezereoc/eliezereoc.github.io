@@ -34,6 +34,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
     // Abre/fecha menu no clique do botão
     menuToggle.addEventListener("click", () => {
       sideNav.classList.toggle("active");
+      const menuAberto = sideNav.classList.contains("active");
+      menuToggle.classList.toggle("is-open", menuAberto);
+      menuToggle.setAttribute("aria-expanded", String(menuAberto));
+      menuToggle.setAttribute("aria-label", menuAberto ? "Fechar menu" : "Abrir menu");
     });
 
     // Fecha menu ao clicar em link (no mobile)
@@ -41,6 +45,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
       link.addEventListener("click", () => {
         if (window.innerWidth <= 768) {
           sideNav.classList.remove("active");
+          menuToggle.classList.remove("is-open");
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.setAttribute("aria-label", "Abrir menu");
         }
       });
     });
@@ -52,6 +59,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
           !menuToggle.contains(e.target) && 
           sideNav.classList.contains("active")) {
         sideNav.classList.remove("active");
+        menuToggle.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Abrir menu");
       }
     });
   }
@@ -86,24 +96,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     observer.observe(el);
   });
 
-  // Efeito de digitação no nome (typewriter)
-  const nomeElement = document.querySelector('.nome');
-  if (nomeElement) {
-    const texto = nomeElement.textContent;
-    nomeElement.textContent = '';
-    nomeElement.style.opacity = '1';
-    
-    let i = 0;
-    const typeWriter = () => {
-      if (i < texto.length) {
-        nomeElement.textContent += texto.charAt(i);
-        i++;
-        setTimeout(typeWriter, 100);
-      }
-    };
-    
-    setTimeout(typeWriter, 500);
-  }
+  // Entrada sutil do hero, preservando a marcação e a acessibilidade do nome.
+  requestAnimationFrame(() => document.body.classList.add('page-ready'));
 });
 
 // Funções de tema
